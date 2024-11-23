@@ -3,7 +3,7 @@ class ATM:
         """Initialize the ATM with an account holder and an initial balance."""
         self.account_holder = account_holder
         self.balance = balance
-        self.transactions = []  # Track deposits and withdrawals
+        self.transactions = []  
 
     def check_balance(self):
         """Display the current balance."""
@@ -15,7 +15,7 @@ class ATM:
         """Deposit money into the account."""
         if amount > 0:
             self.balance += amount
-            self.transactions.append(f"Deposited: ${amount:.2f}")  # Use the correct variable
+            self.transactions.append(f"Deposited: ${amount:.2f}") 
             print(f"${amount:.2f} has been deposited into your account.")
         else:
             print("Invalid deposit amount. Must be greater than zero.")
@@ -29,7 +29,7 @@ class ATM:
             print("Insufficient funds. Cannot withdraw this amount.")
         else:
             self.balance -= amount
-            self.transactions.append(f"Withdrew: ${amount:.2f}")  # Use the correct variable
+            self.transactions.append(f"Withdrew: ${amount:.2f}") 
             print(f"${amount:.2f} has been withdrawn from your account.")
         print("-" * 30)
 
