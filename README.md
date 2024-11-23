@@ -1,5 +1,6 @@
-Simple ATM Python App 
-This is a basic console-based ATM application built with Python. It allows users to perform essential banking operations like:
+# Simple ATM Python App
+
+## This is a basic console-based ATM application built with Python. It allows users to perform essential banking operations like:
 Check Balance 💰
 Deposit Money 🏦
 Withdraw Money 💳
