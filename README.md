@@ -4,4 +4,5 @@
 Check Balance 💰
 Deposit Money 🏦
 Withdraw Money 💳
-The app features a simple menu-interface, validates user input, and ensures secure transactions by handling errors like insufficient balance or invalid inputs. Perfect for beginners to understand Python basics and implement simple logic for real-world scenarios.
+
+## The app features a simple menu-interface, validates user input, and ensures secure transactions by handling errors like insufficient balance or invalid inputs. Perfect for beginners to understand Python basics and implement simple logic for real-world scenarios.
