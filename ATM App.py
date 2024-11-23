@@ -2,10 +2,10 @@ from ATMmodule import ATM
 
 
 def main():
-    # Initialize ATM with a sample account holder and initial balance
+   
     atm = ATM("John Doe", 1000)
 
-    # Main menu for the ATM
+  
     while True:
         print("Welcome to the ATM!")
         print("1. Check Balance")
@@ -14,7 +14,6 @@ def main():
         print("4. Transaction History")
         print("5. Exit")
 
-        # Get user input
         choice = input("Please select an option (1-5): ")
 
         if choice == '1':
